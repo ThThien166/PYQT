@@ -50,7 +50,7 @@ class VideoDownloaderThread(threading.Thread):
             if self.option != 3:
                 output = VideoFileClip(out)
                 output.close()
-            #self.completed_callback(self.getlink, self.err)
+
             self.completed_callback(self.getlink)
         except Exception as e:
             # self.err = self.err+1
