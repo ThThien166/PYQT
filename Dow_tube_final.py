@@ -98,7 +98,6 @@ class downloadShorts(threading.Thread):
             #self.completed_callback(self.getlink, self.err)
             self.completed_callback(self.getlink)
         except Exception as e:
-            # self.err = self.err+1
             self.completed_callback(self.getlink)
             error_message = f"<font color='red'> >>> Error link {self.getlink}: {e}</font>"
             self.info.append(error_message)
