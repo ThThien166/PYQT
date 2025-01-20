@@ -11,6 +11,7 @@ import threading
 from PyQt6.QtCore import QTimer
 import subprocess
 import MySQLdb
+import dow_face2
 
 ffmpeg_path = os.path.join(os.path.dirname(__file__), 'ffmpeg/ffmpeg.exe')
 
