@@ -10,6 +10,7 @@ from pytube import YouTube
 import threading
 from PyQt6.QtCore import QTimer
 import subprocess
+import MySQLdb
 
 ffmpeg_path = os.path.join(os.path.dirname(__file__), 'ffmpeg/ffmpeg.exe')
 
