@@ -5,7 +5,7 @@ import requests
 from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QFileDialog, QMessageBox, QTextBrowser
 from PyQt6.QtGui import QCloseEvent
 from PyQt6.uic import loadUi
-from PyQt6.QtCore import QTimer, QThread, pyqtSignal, Qt
+from PyQt6.QtCore import QTimer, QThread, pyqtSignal
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
